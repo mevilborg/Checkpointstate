@@ -23,7 +23,7 @@ class App extends Component {
 }
 
   componentWillUnmount() {
-    // Clear the interval when the component is unmounted
+    
     clearInterval(this.state.timer);
   }
 
